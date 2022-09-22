@@ -1,0 +1,42 @@
+*{
+    background-color: #F7F4F3;
+}
+
+.main-header{
+    color: #173753;
+    text-align: center;
+    font-weight: bold;
+}
+
+img{
+    width: 300px;
+    height: auto;
+}
+a{
+    color: #173753;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none;
+}
+a:hover{
+    color: #FF4E00;
+}
+
+a:active{
+    color:#C1292E;
+}
+
+.ingredients, .steps {
+    color: #C1292E;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.ingredients-items, .steps-items {
+    font-weight: bold;
+    font-size: large;
+}
+
+.steps-items {
+    font-size: medium;
+}
