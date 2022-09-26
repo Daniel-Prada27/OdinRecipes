@@ -1,5 +1,10 @@
 *{
     background-color: #F7F4F3;
+    /* border: 2px solid black; */
+}
+
+body {
+    margin: 0px;
 }
 
 .main-header{
@@ -17,6 +22,8 @@ a{
     font-weight: bolder;
     font-size: larger;
     text-decoration: none;
+    display: inline-block;
+    padding: 2px;
 }
 a:hover{
     color: #FF4E00;
@@ -24,6 +31,10 @@ a:hover{
 
 a:active{
     color:#C1292E;
+}
+
+.recipes-items{
+    margin: 10px;
 }
 
 .ingredients, .steps {
@@ -39,4 +50,30 @@ a:active{
 
 .steps-items {
     font-size: medium;
+}
+
+.little-descriptive-p {
+    word-break: word-break;
+    width: 40vw;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: inherit;
+}
+
+.first-flex-test {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    background-color: #DED7D5;
+    margin: 0px;
+}
+
+.flex-h2 {
+    flex: 1 1 auto;
+    text-align: center;
+    background-color: inherit;
+}
+
+.inside-flex {
+    background-color: inherit;
 }
